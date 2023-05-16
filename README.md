@@ -1,5 +1,7 @@
 # David's NVIM Environment
 
+Based off [The Primeagens NVIM Configuration](https://github.com/ThePrimeagen/init.lua) 
+
 Clone this repository into you `.config` repository.
 
 ```
