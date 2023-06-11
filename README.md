@@ -10,7 +10,7 @@ Based off [The Primeagens NVIM Configuration](https://github.com/ThePrimeagen/in
 Clone this repository into you `.config` repository.
 
 ```
-cd ~/config
+cd ~
 
 git init
 git remote add origin git@github.com:DavidHollins6/dotfiles.git
