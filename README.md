@@ -12,7 +12,9 @@ Clone this repository into you `.config` repository.
 ```
 cd ~/config
 
-git clone git@github.com:DavidHollins6/dotfiles.git
+git init
+git remote add origin git@github.com:DavidHollins6/dotfiles.git
+git pull origin main
 ```
 
 Make sure to [install packer](https://github.com/wbthomason/packer.nvim#quickstart)
