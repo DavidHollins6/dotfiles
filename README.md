@@ -7,7 +7,7 @@ Somewhere for me to keep all of my dotfiles while I build a better developer wor
 
 Based off [The Primeagens NVIM Configuration](https://github.com/ThePrimeagen/init.lua) 
 
-Clone this repository into you `.config` repository.
+Clone this repository into you home directory.
 
 ```
 cd ~
