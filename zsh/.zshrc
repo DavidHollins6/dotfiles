@@ -26,6 +26,7 @@
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+export ZSH=~/.oh-my-zsh
 
 source $ZSH/oh-my-zsh.sh
 
