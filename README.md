@@ -4,6 +4,10 @@ Somewhere for me to keep all of my dotfiles while I build a better developer wor
 
 ## ZSH
 
+Ensure `tmux` is installed.
+
+`brew install tmux`
+
 Symlink the zsh config.
 
 `ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc`
