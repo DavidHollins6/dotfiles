@@ -8,6 +8,8 @@ Sym link the config.
 
 `ln -s ~/dotfiles/alacritty/alacritty.yml ~/.config/alacritty.yml`
 
+Download the Mononoki Nerd Font. [This](https://www.nerdfonts.com/font-downloads) is a good place to find it.
+
 ## ZSH
 
 Ensure `tmux` is installed.
