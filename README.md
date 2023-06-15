@@ -10,11 +10,18 @@ Sym link the config.
 
 Download the Mononoki Nerd Font. [This](https://www.nerdfonts.com/font-downloads) is a good place to find it.
 
-## ZSH
+
+## TMUX
 
 Ensure `tmux` is installed.
 
 `brew install tmux`
+
+Symlink it.
+
+`ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf`
+
+## ZSH
 
 Symlink the zsh config.
 
