@@ -2,6 +2,12 @@
 
 Somewhere for me to keep all of my dotfiles while I build a better developer workflow for myself.
 
+## Alacritty
+
+Sym link the config.
+
+`ln -s ~/dotfiles/alacritty/alacritty.yml ~/.config/alacritty.yml`
+
 ## ZSH
 
 Ensure `tmux` is installed.
