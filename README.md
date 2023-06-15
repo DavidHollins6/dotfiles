@@ -2,6 +2,11 @@
 
 Somewhere for me to keep all of my dotfiles while I build a better developer workflow for myself.
 
+## ZSH
+
+Symlink the zsh config.
+
+`ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc`
 
 ## NVIM
 
