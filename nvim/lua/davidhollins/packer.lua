@@ -14,6 +14,16 @@ return require('packer').startup(function(use)
 
     use({ 'rose-pine/neovim', as = 'rose-pine' })
     use 'Mofiqul/vscode.nvim'
+    use {
+        'glepnir/dashboard-nvim',
+        event = 'VimEnter',
+        config = function()
+            require('dashboard').setup {
+                -- config
+            }
+        end,
+        requires = { 'nvim-tree/nvim-web-devicons' }
+    }
 
     vim.cmd('colorscheme rose-pine')
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
@@ -43,19 +53,9 @@ return require('packer').startup(function(use)
         }
     }
     use {
-        'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons', -- optional
-        },
-        config = function()
-            require("nvim-tree").setup {}
-        end
-    }
-    use {
         'lewis6991/gitsigns.nvim',
         -- tag = 'release' -- To use the latest release (do not use this if you run Neovim nightly or dev builds!)
     }
 
     use 'nvim-tree/nvim-web-devicons' -- OPTIONAL: for file icons
-    use 'romgrk/barbar.nvim'
 end)
