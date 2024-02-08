@@ -98,5 +98,4 @@ return require('packer').startup(function(use)
     use 'lewis6991/gitsigns.nvim'
     use 'RRethy/vim-illuminate'
     use "lukas-reineke/indent-blankline.nvim"
-    use 'windwp/nvim-ts-autotag'
 end)
